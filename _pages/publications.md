@@ -13,7 +13,7 @@ You can find my peer-reviewed publications at:
 <p>
 
 
-<h2>A regularly(ish!) updated list based on <a href="https://www.scopus.com/authid/detail.uri?authorId=55675224272">SCOPUS </a>can be found below:</h2>
+<h3>A regularly(ish!) updated list based on <a href="https://www.scopus.com/authid/detail.uri?authorId=55675224272">SCOPUS </a>can be found below:</h3>
 
 {% include base_path %}
 
