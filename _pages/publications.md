@@ -9,7 +9,7 @@ You can find my peer-reviewed publications at:
 <p>
 <a href="https://www.scopus.com/authid/detail.uri?authorId=55675224272">SCOPUS Profile</a>
 <br />
-<a href="{{author.orcid}}"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">ORCID profile</a>
+<a href="http://orcid.org/0000-0002-0801-0831"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">ORCID profile</a>
 <p>
 
 
