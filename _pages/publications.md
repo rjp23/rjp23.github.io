@@ -5,12 +5,12 @@ permalink: /publications/
 author_profile: true
 ---
 
-You can also find my articles on:
+You can find my peer-reviewed publications at:
 <p>
-<u><a href="https://www.scopus.com/authid/detail.uri?authorId=55675224272">SCOPUS Profile</a>.</u>
+<a href="https://www.scopus.com/authid/detail.uri?authorId=55675224272">SCOPUS Profile</a>.
+<a href="{{author.orcid}}">ORCID profile</a>.
 <p>
-<u><a href="{{author.orcid}}">ORCID profile</a>.</u>
-<p>
+A regularly(ish!) updated list can be found below:
 
 {% include base_path %}
 
