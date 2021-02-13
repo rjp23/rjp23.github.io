@@ -5,11 +5,12 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-You can also find my articles on...
+You can also find my articles on:
+<p>
+<u><a href="https://www.scopus.com/authid/detail.uri?authorId=55675224272">SCOPUS Profile</a>.</u>
+<p>
+<u><a href="{{author.orcid}}">ORCID profile</a>.</u>
+<p>
 
 {% include base_path %}
 
