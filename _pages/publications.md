@@ -22,7 +22,7 @@ author_profile: true
 {% for myyear in site.data.years %}
 
 {% assign yeartest = false %}
-{% for publi in publications %}
+{% for publi in publications reversed %}
   {% if publi.year == myyear.year %}
    {% assign yeartest = true %}
   {% endif %}
@@ -32,7 +32,7 @@ author_profile: true
 ### {{ myyear.year }}
 {% endif %}
 
-{% for publi in site.publications %}
+{% for publi in site.publications reversed %}
 {% if publi.year == myyear.year %}
 
   {{ publi.citation }}<br/>
@@ -41,10 +41,4 @@ author_profile: true
 {% endif %}
 {% endfor %}
 
-{% endfor %}
-
-## Test
-
-{% for publi in site.publications reversed %}
-{{ publi.citation }}
 {% endfor %}
