@@ -34,7 +34,7 @@ You can find my peer-reviewed publications at:
 {{ site.data.hindex.name }} h-index: {{ site.data.hindex.hindex }} 
 
 {% for au in site.data.authors %}
-Authors: {{ au.name }}
+Authors: {{ au }}
 {% endfor %}
 
 
