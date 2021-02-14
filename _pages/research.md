@@ -11,6 +11,13 @@ I'm currently the *NCEO Leader and Research Fellow for Earth System Model and Cl
 
 My Research Interests include the following areas:
 
+### Earth System Model Evaluation
+
+The evaluation of Earth System Models is vital to understanding their processes and feedbacks and the effect they may have on a changing future climate.
+
+* A large number of Essential Climate Variables can now be observed from satellite data and the use of these for evaluating ESMs allows improved process understanding
+* Understanding of the uncertainty in the observations and how that should be accounted for in evaluating models
+
 ### Satellite Retrievals of Methane
 
 I'm responsible for the development, production and evaluation of the [University of Leicester GOSAT Proxy Methane Data](http://dx.doi.org/10.5285/18ef8247f52a4cb6a14013f8235cc1eb) product.
@@ -29,11 +36,15 @@ Wetland emissions contribute the largest uncertainties to the current global atm
 Biomass burning can be one of the most important disturbances to the Earth System. 
 
 * Significant transfer of ancient carbon into the atmosphere occurs when carbon-rich peatlands are subject to burning.
-
 * The monitoring of the emission ratios between different species can provide information on the characteristics of the fuel being burnt.
-
+* Satellite observations can aid in the evaluation of fire models and help better understand the processes and feedbacks between fire and the rest of the Earth System.
 
 ### Machine Learning for Earth System Science
+
+Machine Learning and Artificial Intelligence has a huge potential to revolutionise Earth System Science in the same way as it has in other scientific fields.
+
+* Emulators can be trained to reproduce the behaviour of complex and computationally expensive physical models
+* "Explainable AI" can help us understand the complex relationships inherent in Earth System Models and gain insight into the underlying processes
 
 ### Satellite Retrievals of Biomass Burning Hydrocarbons
 
