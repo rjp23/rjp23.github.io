@@ -1,6 +1,6 @@
 ---
 title: "GOSAT Proxy XCH4"
-excerpt: "I'm responsible for the development, production and evaluation of the [University of Leicester GOSAT Proxy Methane Data](http://dx.doi.org/10.5285/18ef8247f52a4cb6a14013f8235cc1eb) product"
+excerpt: "I'm responsible for the development, production and evaluation of the [University of Leicester GOSAT Proxy Methane Data](http://dx.doi.org/10.5285/18ef8247f52a4cb6a14013f8235cc1eb) product."
 collection: projects
 ---
 
