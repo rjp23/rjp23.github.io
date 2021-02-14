@@ -29,7 +29,7 @@ You can find my peer-reviewed publications at:
 {% for myyear in site.data.years %}
 
 {% assign yeartest = false %}
-{% for publi in site.data.publist reversed %}
+{% for publi in site.data.publist %}
   {% if publi.year == myyear.year %}
    {% assign yeartest = true %}
   {% endif %}
@@ -40,7 +40,7 @@ You can find my peer-reviewed publications at:
 ## {{ myyear.year }}
 {% endif %}
 
-{% for publi in site.data.publist reversed %}
+{% for publi in site.data.publist %}
 {% if publi.year == myyear.year %}
 
   {{ publi.citation }}<br/>
