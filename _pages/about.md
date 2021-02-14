@@ -18,7 +18,7 @@ I now primarily work on the UK Earth System Modelling project as part of the UKE
 
 My PhD in the EOS Group at the University of Leicester, titled *Satellite Observations of C2H2 and C2H6 in the Upper Troposphere* focused on identifying organic compounds generated during biomass burning from space-based instrumentation and understanding their sources, distribution and transport within the atmosphere.
 
-You can read more about my research interests on my [Research]({{ site.baseurl }}{% link _pages/research.md %}) page and view a list of my [Publications]({{ site.baseurl }}{% link _pages/research.md %}).
+You can read more about my research interests on my [Research]({{ site.baseurl }}{% link _pages/research.md %}) page and view a list of my [Publications]({{ site.baseurl }}{% link _pages/publications.md %}).
 
 
 
