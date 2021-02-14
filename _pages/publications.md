@@ -30,6 +30,11 @@ You can find my peer-reviewed publications at:
 {{ hindex.name }} h-index: {{ hindex.hindex }} 
 {% endfor %}
 
+
+{{ site.data.hindex.name }} h-index: {{ site.data.hindex.hindex }} 
+
+
+
 {% for myyear in site.data.years %}
 
 {% assign yeartest = false %}
