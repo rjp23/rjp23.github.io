@@ -27,6 +27,7 @@ You can find my peer-reviewed publications at:
 <h3>A regularly(ish!) updated list based on <a href="https://www.scopus.com/authid/detail.uri?authorId=55675224272">SCOPUS </a>can be found below:</h3>
 
 
+{{ site.data.hindex.name }}
 
 
 {% for myyear in site.data.years %}
