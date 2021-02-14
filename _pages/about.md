@@ -16,8 +16,6 @@ I have over 15 years’ experience in utilising satellite remote sensing FTS ins
 
 I now primarily work on the UK Earth System Modelling project as part of the UKESM Core Group and also represent UKESM on the ESA Climate Change Initiative Climate Modelling User Group (CMUG).
 
-My PhD in the EOS Group at the University of Leicester, titled [*Satellite Observations of C<sub>2</sub>H<sub>2</sub> and C<sub>2</sub>H<sub>6</sub> in the Upper Troposphere*](https://hdl.handle.net/2381/7955), focused on identifying organic compounds generated during biomass burning from space-based instrumentation and understanding their sources, distribution and transport within the atmosphere.
-
 You can read more about my research interests on my [Research]({{ site.baseurl }}{% link _pages/research.md %}) page and view a list of my [Publications]({{ site.baseurl }}{% link _pages/publications.md %}).
 
 
