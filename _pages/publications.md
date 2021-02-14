@@ -28,6 +28,8 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
+Test - {{ yeartest }}
+
 {% if yeartest == true %}
 ### {{ myyear.year }}
 {% endif %}
