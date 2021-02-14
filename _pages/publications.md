@@ -23,7 +23,6 @@ author_profile: true
 {% assign yeartest = false %}
 {% for publi in site.publications reversed %}
   {% if publi.year == myyear.year %}
-  {{ myyear.year }} - {{ publi.year }}
    {% assign yeartest = true %}
   {% endif %}
 {% endfor %}
