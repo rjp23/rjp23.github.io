@@ -45,6 +45,6 @@ author_profile: true
 
 ## Test
 
-{% for publi in site.publications %}
+{% for publi in site.publications reversed %}
 {{ publi.citation }}
 {% endfor %}
