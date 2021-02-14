@@ -8,6 +8,7 @@ author_profile: true
 <style>
 .btn{
     margin-bottom:0;
+    padding: 0.2em 0.5em;
 }
 .jumbotron{
     padding-bottom:0px;
