@@ -29,7 +29,7 @@ author_profile: true
 
 
 {% if yeartest == true %}
-### {{ myyear.year }}
+## {{ myyear.year }}
 {% endif %}
 
 {% for publi in site.publications reversed %}
