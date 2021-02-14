@@ -1,10 +1,10 @@
 ---
+layout: archive
 title: "Publications"
-layout: gridlay
-sitemap: false
 permalink: /publications/
+author_profile: true
 ---
-
+s
 <style>
 .btn{
     margin-bottom:0;
@@ -30,46 +30,6 @@ permalink: /publications/
 ### Under Review
 {% endif %}
 
-{% for publi in site.publicationss %}
-{% if publi.date %}{% else %}
-
-
-<div class="jumbotron">
-<div class="row">
-<div class="d-none d-md-block col-sm-2">
-{% if publi.image %}
- <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" width="100%" style="margin-top:5px"/>
-{% endif %}
-</div>
-<div class="col-md-10 col-sm-12 col-xs-12">
- <strong> {{ publi.title }}</strong><br/>
- {{ publi.authors | replace_first: 'S. H. Bryngelson', '<b>S. H. Bryngelson</b>'}}<br/>
- {% if publi.journal %}Under review at <i>{{ publi.journal }}</i>,{% endif %} {% if publi.arxiv %} arXiv {{ publi.arxiv }}{% endif %}<br/>
- {% if publi.paperurl %}<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ publi.paperurl }}.pdf" target="_blank"><button type="button" class="btn btn-success btn-sm">PDF</button></a>{% endif %}
- {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv }}" target="_blank"><button class="btn btn-sm btn-primary">ARXIV</button></a> {% endif %}
- {% if bibtest == true %} <a data-toggle="collapse" href="#{{publi.paperurl}}2" class="btn btn-sm btn-warning" role="button" aria-expanded="false" aria-controls="{{publi.paperurl}}2">BIB</a> {% endif %}
- {% if publi.abstract %} <a data-toggle="collapse" href="#{{publi.paperurl}}" class="btn btn-sm btn-danger" role="button" aria-expanded="false" aria-controls="{{publi.paperurl}}">ABSTRACT</a>{% endif %}
-
-{% if publi.abstract %}
-<div class="collapse" id="{{publi.paperurl}}"><div class="well-collapse">
- {{publi.abstract}}
-</div></div>
-{% endif %}
-
-{% if bibtest == true %}
-<div class="collapse" id="{{publi.paperurl}}2"><div class="well-collapse">
- <iframe src='{{site.url}}{{site.baseurl}}/papers/{{publi.paperurl}}.txt' scrolling='yes' width="100%" height="210" frameborder='0'></iframe>
-</div></div>
-{% endif %}
-</div>
-</div>
-</div>
-{% endif %}
-{% endfor %}
-
-{% if site.group_pub_by_year == true %}{% else %}
-### Journal Papers and Proceedings 
-{% endif %}
 
 {% for myyear in site.data.years %}
 
