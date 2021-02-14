@@ -7,8 +7,17 @@ author_profile: true
 
 {% include base_path %}
 
+I'm currently the *NCEO Leader and Research Fellow for Earth System Model and Climate-Carbon Data Evaluation* for the UK National Centre for Earth Observation ([NCEO](https://www.nceo.ac.uk/)), based at the [University of Leicester](https://www2.le.ac.uk/departments/physics/people/robparkers), UK.
 
+My Research Interests include the following areas:
 
+### Satellite Retrievals of Methane
+
+### Understanding Wetland Methane Emissions
+
+### Monitoring Fire Emissions from Space
+
+### Machine Learning for Earth System Science
 
 ### Satellite Retrievals of Biomass Burning Hydrocarbons
 
