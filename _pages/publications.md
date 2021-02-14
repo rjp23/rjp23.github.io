@@ -35,10 +35,16 @@ author_profile: true
 {% for publi in site.publications %}
 {% if publi.year == myyear.year %}
 
-  <b>{{ publi.citation }}</b><br/>
+  {{ publi.citation }}<br/>
   {% if publi.paperurl %}<a href="{{ publi.paperurl }}" target="_blank"><button type="button" class="btn btn-sm btn-success">DOI</button></a>{% endif %}
 
 {% endif %}
 {% endfor %}
 
+{% endfor %}
+
+## Test
+
+{% for publi in site.publications %}
+{{ publi.citation }}
 {% endfor %}
