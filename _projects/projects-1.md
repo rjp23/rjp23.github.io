@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1"
+title: "GOSAT Proxy XCH4"
+excerpt: "GOSAT Proxy XCH4"
 collection: projects
 ---
 
