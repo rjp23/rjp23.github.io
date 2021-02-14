@@ -37,7 +37,7 @@ Test - {{ yeartest }} - {{ myyear.year }} - {{ publi.year }}
 {% for publi in site.publications reversed %}
 {% if publi.year == myyear.year %}
 
-  {{ publi.citation }}<br/>
+  {{ publi.year }} - {{ publi.citation }}<br/>
   {% if publi.paperurl %}<a href="{{ publi.paperurl }}" target="_blank"><button type="button" class="btn btn-sm btn-success">DOI</button></a>{% endif %}
 
 {% endif %}
