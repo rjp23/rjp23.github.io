@@ -21,21 +21,14 @@ author_profile: true
 You can find my peer-reviewed publications at:
 <br />
 <a href="https://www.scopus.com/authid/detail.uri?authorId=55675224272">SCOPUS Profile</a>
+{% for hindex in site.data.hindex %}
+({{ hindex.name }} h-index: {{ hindex.hindex }})
+{% endfor %}
 <br />
 <a href="http://orcid.org/0000-0002-0801-0831"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">ORCID profile</a>
 
 <h3>A regularly(ish!) updated list based on <a href="https://www.scopus.com/authid/detail.uri?authorId=55675224272">SCOPUS </a>can be found below:</h3>
 
-{% for hindex in site.data.hindex %}
-{{ hindex.name }} h-index: {{ hindex.hindex }} 
-{% endfor %}
-
-
-{{ site.data.hindex.name }} h-index: {{ site.data.hindex.hindex }} 
-
-{% for au in site.data.authors %}
-Authors: {{ au.email }}
-{% endfor %}
 
 
 
