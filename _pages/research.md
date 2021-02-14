@@ -15,11 +15,23 @@ My Research Interests include the following areas:
 
 I'm responsible for the development, production and evaluation of the [University of Leicester GOSAT Proxy Methane Data](http://dx.doi.org/10.5285/18ef8247f52a4cb6a14013f8235cc1eb) product.
 
-Since the launch of the GOSAT satellite in 2009, these data have been produced by the UK National Centre for Earth Observation (NCEO) as part of the ESA Greenhouse Gas Climate Change Initiative (GHG-CCI) and Copernicus Climate Change Services (C3S) projects. With now over a decade of observations, many scientific studies have used these data to examine methane trends and emissions.
+* Since the launch of the GOSAT satellite in 2009, these data have been produced by the UK National Centre for Earth Observation (NCEO) as part of the ESA Greenhouse Gas Climate Change Initiative (GHG-CCI) and Copernicus Climate Change Services (C3S) projects.
+* With now over a decade of observations, many scientific studies have used these data to examine methane trends and emissions.
 
 ### Understanding Wetland Methane Emissions
 
+Wetland emissions contribute the largest uncertainties to the current global atmospheric CH<sub>4</sub> budget and how these emissions will change under future climate scenarios is still poorly understood. 
+
+* A large part of my research work has been focused on utilising satellite CH<sub>4</sub> observations to analysis and evaluate our understanding of wetland CH<sub>4</sub> emissions.
+
 ### Monitoring Fire Emissions from Space
+
+Biomass burning can be one of the most important disturbances to the Earth System. 
+
+* Significant transfer of ancient carbon into the atmosphere occurs when carbon-rich peatlands are subject to burning.
+
+* The monitoring of the emission ratios between different species can provide information on the characteristics of the fuel being burnt.
+
 
 ### Machine Learning for Earth System Science
 
