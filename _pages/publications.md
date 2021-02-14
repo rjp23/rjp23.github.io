@@ -21,7 +21,7 @@ author_profile: true
 {% for myyear in site.data.years %}
 
 {% assign yeartest = false %}
-{% for publi in publications reversed %}
+{% for publi in site.publications reversed %}
   {% if publi.year == myyear.year %}
   {{ myyear.year }} - {{ publi.year }}
    {% assign yeartest = true %}
