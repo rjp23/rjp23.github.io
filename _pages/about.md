@@ -20,5 +20,5 @@ My PhD in the EOS Group at the University of Leicester, titled *Satellite Observ
 
 You can read more about my research interests on my research page and view a list of my publications.
 
-[Link to a document] {{ site.baseurl }}{% link _pages/research.md %}
-[Link to a document] {{ site.baseurl }}{% link _pages/publications.md %}
+[Link to a document]{{ site.baseurl }}{% link _pages/research.md %}
+[Link to a document]{{ site.baseurl }}{% link _pages/publications.md %}
