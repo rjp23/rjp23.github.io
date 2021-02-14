@@ -28,7 +28,6 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
-Test - {{ yeartest }} - {{ myyear.year }} - {{ publi.year }}
 
 {% if yeartest == true %}
 ### {{ myyear.year }}
@@ -37,7 +36,7 @@ Test - {{ yeartest }} - {{ myyear.year }} - {{ publi.year }}
 {% for publi in site.publications reversed %}
 {% if publi.year == myyear.year %}
 
-  {{ publi.year }} - {{ publi.citation }}<br/>
+  {{ publi.citation }}<br/>
   {% if publi.paperurl %}<a href="{{ publi.paperurl }}" target="_blank"><button type="button" class="btn btn-sm btn-success">DOI</button></a>{% endif %}
 
 {% endif %}
